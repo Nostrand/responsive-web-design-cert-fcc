@@ -4,31 +4,31 @@ Mini-Projects from the [Responsive Web Design Certification by freeCodeCamp](htt
 ## Section 1
 ### Mini-Projects:
 
-### HTML Cat Photo App - [Live View](https://nostrand.github.io/html-cat-photo-app/index.html)
+### HTML Cat Photo App - [Live View](https://nostrand.github.io/responsive-web-design-fcc/html-cat-photo-app/index.html)
 Built a basic webpage to grasp/practice fundamental HTML tags.
 <div align="center">
   <img src="preview-images/cat-photo-app.png" alt="HTML Cat Photo App" width=600>
 </div>
 
-#### CSS Cafe Menu - [Live View](https://nostrand.github.io/css-cafe-menu/index.html)
+#### CSS Cafe Menu - [Live View](https://nostrand.github.io/responsive-web-design-fcc/css-cafe-menu/index.html)
 Crafted a cafe menu page refining CSS techniques to control colors, fonts, sizes, and more for improved webpage presentation.
 <div align="center">
   <img src="preview-images/cafe-menu.png" alt="CSS Cafe Menu" width=600>
 </div>
 
-#### CSS Colored Markers - [Live View](https://nostrand.github.io/css-colored-markers/index.html)
+#### CSS Colored Markers - [Live View](https://nostrand.github.io/responsive-web-design-fcc/css-colored-markers/index.html)
 Crafted a collection of colored markers, exploring various color values and combinations to enhance the visual appeal and design aesthetics of web elements.
 <div align="center">
   <img src="preview-images/colored-markers.png" alt="CSS Colored Markers" width=600>
 </div>
 
-#### HTML Registration Form - [Live View](https://nostrand.github.io/html-registration-form/index.html)
+#### HTML Registration Form - [Live View](https://nostrand.github.io/responsive-web-design-fcc/html-registration-form/index.html)
 Constructed a user-friendly registration form with HTML, delved into form control and data input personalization, integrating CSS styling for a visually appealing presentation.
 <div align="center">
   <img src="preview-images/registration-form.png" alt="HTML Registration Form" width=600>
 </div>
 
-### Main Project - Survey Form - [Live View](https://nostrand.github.io/project-survey-form/index.html)
+### Main Project - Survey Form - [Live View](https://nostrand.github.io/responsive-web-design-fcc/project-survey-form/index.html)
 The goal was to build a custom survey form, using HTML & CSS and apply the concepts covered in the previous mini-projects.
 <div align="center">
   <img src="preview-images/project-survey-form.png" alt="Project Survey Form" width=800>
@@ -39,13 +39,13 @@ The goal was to build a custom survey form, using HTML & CSS and apply the conce
 ## Section 2
 ### Mini-Projects
 
-#### CSS Box Model Art - [Live View](https://nostrand.github.io/css-rothko-painting/index.html)
+#### CSS Box Model Art - [Live View](https://nostrand.github.io/responsive-web-design-fcc/css-rothko-painting/index.html)
 Utilized CSS and the Box Model to craft Rothko-style rectangular art pieces.
 <div align="center">
   <img src="preview-images/rothko-painting.png" alt="CSS Box Model Art" width=600>
 </div>
 
-#### CSS Flexbox Gallery - [Live View](https://nostrand.github.io/css-flexbox-gallery/index.html)
+#### CSS Flexbox Gallery - [Live View](https://nostrand.github.io/responsive-web-design-fcc/css-flexbox-gallery/index.html)
 Created a responsive photo gallery using CSS Flexbox, ensuring excellent visual presentation across various screen sizes.
 <div align="center">
   <img src="preview-images/flexbox-photo-gallery.png" alt="CSS Flexbox Gallery" width=600>
