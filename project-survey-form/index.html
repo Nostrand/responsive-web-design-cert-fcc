@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>Surviving Mars Survey</title>
+</head>
+<body>
+  <div clas="container">
+    <header class="header">
+    <h1 id="title">Surviving Mars Survey</h1>
+     <p id="description">🚀 Join the Martian Adventure! Share your vision and skills to shape the future of the Red Planet colonization. Your journey awaits among the stars!
+          </p>
+    </header>
+
+    <form id="survey-form" method="post" action="">
+      <fieldset>
+    <label id="name-label">Name
+      <input id="name" type="text" placeholder="John Doe" required/>
+    </label>
+    <label id="number-label">Age
+      <input id="number" type="number" required min="17" max="50" placeholder="25"/>
+    </label>
+    <label id="email-label">Email
+      <input id="email" type="email" placeholder="sample@email.com" required/>
+    </label>
+  </fieldset>
+
+<!-- Dropdown section -->
+   <fieldset>
+    <p>🌆 Imagine life on Mars! we want to know your apartment preferrences!</p>
+    <select id="dropdown">
+      <option>(select an option)</option>
+      <option>Dusty windows</option>
+      <option>Really dusty windows</option>
+      <option>No windows</option>
+    </select>
+  </fieldset>
+
+<!-- Radio buttons section -->
+<fieldset>
+       <p>Martian specialties await – time to choose yours!:</p>
+      <label>
+        <input type="radio" name="specialization" value="botanist" class="inline" checked>
+        Botanist 🌱
+    </label>
+      <label>
+        <input type="radio" name="specialization" value="engineer" class="inline">
+        Engineer 🔧
+    </label>
+      <label>
+          <label>
+        <input type="radio" name="specialization" value="geologist" class="inline">
+        Geologist 🔍
+    </label>
+      <label>
+        <input type="radio" name="specialization" value="officer" class="inline">
+        Officer ⭐
+    </label>
+    <label>
+        <input type="radio" name="specialization" value="medic" class="inline">
+        Medic 💉
+    </label>
+      <label>
+        <input type="radio" name="specialization" value="scientist" class="inline">
+        Scientist 🧪
+    </label>
+      <label>
+        <input type="radio" name="specialization" value="no-spec" class="inline">
+        No Specialization 💼
+    </label><br>
+    </fieldset>
+
+<!-- Checkbox -->
+  <label><input name="terms-and-conditions" value="terms-and-conditions" type="checkbox" class="inline">I accept the Martian <a href="https://cdn.mos.cms.futurecdn.net/ce8Xz9t4bAHQvwofvDwuqU-1200-80.jpg.webp">terms and conditions</a></label>
+  <label><input name="mission-updates" value="mission-updates" type="checkbox" class="inline">Mission updates</label>
+
+<!-- Free text section -->
+    <fieldset>
+    <label for="comments">Got something to say to Mission Control?</label>
+    <textarea id="comments" name="comments" placeholder="Share your thoughts, quips, or Martian haikus here!"></textarea>
+    <p>Your words will echo across the Martian winds, so don't hold back!</p>
+  </fieldset>
+
+<fieldset>
+<input id="submit" type="submit" value="Submit"></input>
+</fieldset>
+    </form>
+    </div>
+</body>
+</html>
