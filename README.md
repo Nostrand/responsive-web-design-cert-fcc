@@ -50,3 +50,9 @@ Created a responsive photo gallery using CSS Flexbox, ensuring excellent visual 
 <div align="center">
   <img src="preview-images/flexbox-photo-gallery.png" alt="CSS Flexbox Gallery" width=600>
 </div>
+
+#### Nutrition Label - [Live View](https://nostrand.github.io/responsive-web-design-fcc/nutrition-label/index.html)
+Used typography to build a nutrition label webpage. Leveraged CSS to enhance text styling, adjust line heights, and position content.
+<div align="center">
+  <img src="preview-images/nutrition-label.png" alt="Nutrition Label" width=600>
+</div>
