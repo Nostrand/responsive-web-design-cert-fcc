@@ -29,7 +29,7 @@ Constructed a user-friendly registration form with HTML, delved into form contro
 </div>
 
 ### Main Project - Survey Form - [Live View](https://nostrand.github.io/responsive-web-design-fcc/project-survey-form/index.html)
-The goal was to build a custom survey form, using HTML & CSS and apply the concepts covered in the previous mini-projects.
+The goal of this project was to build a custom survey form, using HTML & CSS and apply the concepts covered in the previous mini-projects.
 <div align="center">
   <img src="preview-images/project-survey-form.png" alt="Project Survey Form" width=800>
 </div>
@@ -55,4 +55,10 @@ Created a responsive photo gallery using CSS Flexbox, ensuring excellent visual 
 Used typography to build a nutrition label webpage. Leveraged CSS to enhance text styling, adjust line heights, and position content.
 <div align="center">
   <img src="preview-images/nutrition-label.png" alt="Nutrition Label" width=600>
+</div>
+
+#### Accessibility Quiz - [Live View](https://nostrand.github.io/responsive-web-design-fcc/accessibility-quiz/index.html)
+Created a quiz webpage with a focus on accessibility. Implementing keyboard shortcuts, ARIA attributes, and design best practices. 
+<div align="center">
+  <img src="preview-images/accessibility-quizss.png" alt="Accessibility quiz website" width=600>
 </div>
