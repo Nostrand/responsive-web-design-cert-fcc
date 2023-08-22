@@ -60,7 +60,7 @@ Used typography to build a nutrition label webpage. Leveraged CSS to enhance tex
 #### Accessibility Quiz - [Live View](https://nostrand.github.io/responsive-web-design-fcc/accessibility-quiz/index.html)
 Created a quiz webpage with a focus on accessibility. Implementing keyboard shortcuts, ARIA attributes, and design best practices. 
 <div align="center">
-  <img src="preview-images/accessibility-quizss.png" alt="Accessibility quiz website" width=600>
+  <img src="preview-images/accessibility-quiz.png" alt="Accessibility quiz website" width=600>
 </div>
 
 ### Main Project - Tribute Page - [Live View](https://nostrand.github.io/responsive-web-design-fcc/project-tribute-page/index.html)
