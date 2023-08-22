@@ -62,3 +62,9 @@ Created a quiz webpage with a focus on accessibility. Implementing keyboard shor
 <div align="center">
   <img src="preview-images/accessibility-quizss.png" alt="Accessibility quiz website" width=600>
 </div>
+
+### Main Project - Tribute Page - [Live View](https://nostrand.github.io/responsive-web-design-fcc/project-tribute-page/index.html)
+The goal of my project was to craft a Slam Tilt tribute page, using HTML & CSS, and apply the concepts covered in the previous mini-projects.
+<div align="center">
+  <img src="preview-images/project-tribute-page.png" alt="Project Tribute Page" width=800>
+</div>

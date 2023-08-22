@@ -1,0 +1,113 @@
+/* Main Content */
+
+body {
+  text-align:center;
+  color: #333;
+}
+main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #e0eaf0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+ul {
+    list-style-position: inside;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center;
+}
+li {
+  margin: 16px 0;
+}
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+a:visited {
+  color: #74638f;
+}
+
+/* Image Slider Part */
+.viewer {
+      position: relative;
+      width: 800px;
+      max-width: 100%;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+.slides {
+      display: flex;
+      transition: transform 0.3s ease-in-out;
+    }
+.slide {
+      flex-shrink: 0;
+      width: 100%;
+      height: auto;
+      /*background-color: #ccc;*/
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+.slide img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+.thumbnails {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+input[type="radio"] {
+      display: none;
+    }
+label {
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-color: #333;
+      border-radius: 50%;
+      margin: 0 5px;
+      transition: background-color 0.3s ease-in-out;
+    }
+input[type="radio"]:checked + label {
+      background-color: #f00;
+    }
+input[type="radio"]:checked:nth-of-type(1) ~ .slides {
+  transform: translateX(0);
+}
+
+input[type="radio"]:checked:nth-of-type(2) ~ .slides {
+  transform: translateX(-100%);
+}
+
+input[type="radio"]:checked:nth-of-type(3) ~ .slides {
+  transform: translateX(-200%);
+}
+input[type="radio"]:checked:nth-of-type(4) ~ .slides {
+  transform: translateX(-300%);
+}
+input[type="radio"]:checked:nth-of-type(5) ~ .slides {
+  transform: translateX(-400%);
+}
