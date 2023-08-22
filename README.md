@@ -68,3 +68,8 @@ The goal of my project was to craft a Slam Tilt tribute page, using HTML & CSS, 
 <div align="center">
   <img src="preview-images/project-tribute-page.png" alt="Project Tribute Page" width=800>
 </div>
+
+---
+
+## Section 3
+### Mini-Projects

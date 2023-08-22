@@ -14,12 +14,6 @@ main {
 h1 {
   font-size: 4rem;
 }
-#image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
 img-div {
   background: white;
   padding: 10px;
@@ -28,12 +22,12 @@ img-div {
 #img-caption {
   margin: 15px 0 5px 0;
 }
-
 ul {
-    list-style-position: inside;
-    margin: 0 auto;
-    line-height: 1.6;
-    text-align: center;
+  max-width: 250px;
+  list-style: inside;
+  text-align: left;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
 }
 li {
   margin: 16px 0;
@@ -64,7 +58,6 @@ a:visited {
       flex-shrink: 0;
       width: 100%;
       height: auto;
-      /*background-color: #ccc;*/
       display: flex;
       align-items: center;
       justify-content: center;
