@@ -64,7 +64,7 @@ Created a quiz webpage with a focus on accessibility. Implementing keyboard shor
 </div>
 
 ### Main Project - Tribute Page - [Live View](https://nostrand.github.io/responsive-web-design-fcc/project-tribute-page/index.html)
-The goal of my project was to craft a Slam Tilt tribute page, using HTML & CSS, and apply the concepts covered in the previous mini-projects.
+The goal of my project was to craft a tribute page, using HTML & CSS, and apply the concepts covered in the previous mini-projects.
 <div align="center">
   <img src="preview-images/project-tribute-page.png" alt="Project Tribute Page" width=800>
 </div>
@@ -77,19 +77,19 @@ The goal of my project was to craft a Slam Tilt tribute page, using HTML & CSS, 
 #### Balance Sheet - [Live View](https://nostrand.github.io/responsive-web-design-fcc/balance-sheet/index.html)
 Built a balance sheet using pseudo selectors. Applied hover effects and event triggers to enhance user experience. 
 <div align="center">
-  <img src="preview-images/accessibility-quiz.png" alt="Accessibility quiz website" width=600>
+  <img src="preview-images/balance-sheet.png" alt="Balance Sheet made with HTML and CSS." width=600>
 </div>
 
 #### Cat Painting - [Live View](https://nostrand.github.io/responsive-web-design-fcc/cat-painting/index.html)
-Created a quiz webpage with a focus on accessibility. Implementing keyboard shortcuts, ARIA attributes, and design best practices. 
+Created a cat painting utilizing a combination of styling elements.
 <div align="center">
-  <img src="preview-images/accessibility-quiz.png" alt="Accessibility quiz website" width=600>
+  <img src="preview-images/cat-painting.png" alt="Cat Painting made with HTML and CSS." width=600>
 </div>
 
 #### Piano - [Live View](https://nostrand.github.io/responsive-web-design-fcc/piano/index.html)
-Created a quiz webpage with a focus on accessibility. Implementing keyboard shortcuts, ARIA attributes, and design best practices. 
+This mini-project showcases CSS styling to create a lifelike depiction of a piano.
 <div align="center">
-  <img src="preview-images/accessibility-quiz.png" alt="Accessibility quiz website" width=600>
+  <img src="preview-images/piano.png" alt="Piano made with HTML and CSS." width=600>
 </div>
 
 <!-- ### Main Project - Technical Documentation Page - [Live View](https://nostrand.github.io/responsive-web-design-fcc/project-technical-documentation-page/index.html)
