@@ -73,3 +73,27 @@ The goal of my project was to craft a Slam Tilt tribute page, using HTML & CSS, 
 
 ## Section 3
 ### Mini-Projects
+
+#### Balance Sheet - [Live View](https://nostrand.github.io/responsive-web-design-fcc/balance-sheet/index.html)
+Built a balance sheet using pseudo selectors. Applied hover effects and event triggers to enhance user experience. 
+<div align="center">
+  <img src="preview-images/accessibility-quiz.png" alt="Accessibility quiz website" width=600>
+</div>
+
+#### Cat Painting - [Live View](https://nostrand.github.io/responsive-web-design-fcc/cat-painting/index.html)
+Created a quiz webpage with a focus on accessibility. Implementing keyboard shortcuts, ARIA attributes, and design best practices. 
+<div align="center">
+  <img src="preview-images/accessibility-quiz.png" alt="Accessibility quiz website" width=600>
+</div>
+
+#### Piano - [Live View](https://nostrand.github.io/responsive-web-design-fcc/piano/index.html)
+Created a quiz webpage with a focus on accessibility. Implementing keyboard shortcuts, ARIA attributes, and design best practices. 
+<div align="center">
+  <img src="preview-images/accessibility-quiz.png" alt="Accessibility quiz website" width=600>
+</div>
+
+<!-- ### Main Project - Technical Documentation Page - [Live View](https://nostrand.github.io/responsive-web-design-fcc/project-technical-documentation-page/index.html)
+The goal of this project was to build a technical documentation page.
+<div align="center">
+  <img src="preview-images/project-technical-documentation-page.png" alt="Project Tribute Page" width=800>
+</div> -->
