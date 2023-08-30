@@ -92,8 +92,19 @@ Created a quiz webpage with a focus on accessibility. Implementing keyboard shor
   <img src="preview-images/accessibility-quiz.png" alt="Accessibility quiz website" width=600>
 </div>
 
-<!-- ### Main Project - Technical Documentation Page - [Live View](https://nostrand.github.io/responsive-web-design-fcc/project-technical-documentation-page/index.html)
-The goal of this project was to build a technical documentation page.
+### Main Project - Technical Documentation Page - [Live View](https://nostrand.github.io/responsive-web-design-fcc/project-technical-documentation-page/index.html)
+The goal of this project was to build a technical documentation page using only HTML & CSS. The page features a user-friendly navigation bar that seamlessly guides users to different sections, enhancing accessibility and ease of use.
 <div align="center">
   <img src="preview-images/project-technical-documentation-page.png" alt="Project Tribute Page" width=800>
 </div> -->
+
+---
+
+## Section 4
+### Mini-Projects
+
+#### City Skyline - [Live View](https://nostrand.github.io/responsive-web-design-fcc/city-skyline/index.html)
+Crafted a dynamic city skyline using CSS variables for streamlined styling and reusability.
+<div align="center">
+  <img src="preview-images/city-skyline-night.png" alt="City skyline during the night." width=600>
+</div>

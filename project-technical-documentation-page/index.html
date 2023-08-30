@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Technical Documentation Page</title>
+</head>
+<body>
+  <!-- Navbar Section -->
+  <nav id="navbar">
+    <header id="navbar-header">CSS Documentation</header>
+    <a class="nav-link" href="#introduction">Introduction</a>
+    <a class="nav-link" href="#what_is_css">What is CSS?</a>
+    <a class="nav-link" href="#anatomy_of_a_css_ruleset">Anatomy of a CSS ruleset</a>
+    <a class="nav-link" href="#selecting_multiple_elements">Selecting multiple elements</a>
+    <a class="nav-link" href="#different_types_of_selectors">Different types of selectors</a>
+    <a class="nav-link" href="#fonts_and_text">Fonts and text</a>
+    <a class="nav-link" href="#css_all_about_boxes">CSS: all about boxes</a>
+    <a class="nav-link" href="#changing_the_page_color">Changing the page color</a>
+    <a class="nav-link" href="#styling_the_body">Styling the body</a>
+    <a class="nav-link" href="#positioning_and_styling_the_main_page_title">Positioning and styling the main page title</a>
+    <a class="nav-link" href="#centering_the_image">Centering the image</a>
+    <a class="nav-link" href="#conclusion">Conclusion</a></br>
+    <a class="nav-link" href="#reference">Reference</a>
+  </nav>
+  <!-- Navbar End -->
+
+  <main id="main-doc">
+    <section id="introduction" class="main-section">
+      <header>Introduction</header>
+      <p>CSS (Cascading Style Sheets) is the code that styles web content. CSS basics walks through what you need to get started. We'll answer questions like: How do I make text red? How do I make content display at a certain location in the (webpage) layout? How do I decorate my webpage with background images and colors?</p>
+    </section>
+
+    <section id="what_is_css" class="main-section">
+      <header>What is CSS?</header>
+      <p>Like HTML, CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. CSS is what you use to selectively style HTML elements. For example, this CSS selects paragraph text, setting the color to red:</p>
+      <div class="code-block">
+      <div class="code-label-css">CSS</div>
+      <pre><code>
+        p {
+          color: red;
+        }
+      </code></pre>
+      </div>
+      <p>Let's try it out! Using a text editor, paste the three lines of CSS (above) into a new file. Save the file as style.css in a directory named styles.
+
+      To make the code work, we still need to apply this CSS (above) to your HTML document. Otherwise, the styling won't change the appearance of the HTML.</p>
+      <ol>
+        <li>Open your index.html file. Paste the following line in the head (between the <head> and </head> tags):</li>
+      <div class="code-block">
+      <div class="code-label-html">HTML</div>
+      <pre><code>
+        &lt;link href="styles/style.css" rel="stylesheet" /&gt;
+      </code></pre>
+      </div>
+      <li>Save index.html and load it in your browser. You should see something like this:</li>
+      <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/website-screenshot-styled.png" alt="Screenshoot of basic html page">
+      </ol>
+      <p>If your paragraph text is red, congratulations! Your CSS is working.</p>
+    </section>
+
+    <section id="anatomy_of_a_css_ruleset" class="main-section">
+      <header>Anatomy of a CSS ruleset</header>
+      <p>Let's dissect the CSS code for red paragraph text to understand how it works:</p>
+      <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png" alt="CSS structure analysis.">
+      <p>The whole structure is called a ruleset. (The term ruleset is often referred to as just rule.) Note the names of the individual parts:</p>
+      <dl>
+        <dt>Selector</dt>
+          <dd>This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled (in this example, <code class="code-blue">&lt;p&gt;</code> elements). To style a different element, change the selector.</dd>
+        
+        <dt>Declaration</dt>
+          <dd>This is a single rule like <code class="code-white">color: red</code>. It specifies which of the element's properties you want to style.</dd>
+        <dt>Properties</dt>
+          <dd>These are ways in which you can style an HTML element. (In this example, <code class="code-white">color</code> is a property of the <code class="code-blue">&lt;p&gt;</code> elements.) In CSS, you choose which properties you want to affect in the rule.</dd>
+      
+        <dt>Property value</dt>
+          <dd>To the right of the property—after the colon—there is the property value. This chooses one out of many possible appearances for a given property. (For example, there are many <code class="code-white">color</code> values in addition to <code class="code-white">red</code>.)</dd>
+      </dl>
+      <p>Note the other important parts of the syntax:</p>
+      <ul>
+        <li>Apart from the selector, each ruleset must be wrapped in curly braces. ({})</li>
+        <li>Within each declaration, you must use a colon (:) to separate the property from its value or values.</li>
+        <li>Within each ruleset, you must use a semicolon (;) to separate each declaration from the next one.</li>
+      </ul>
+      <p>To modify multiple property values in one ruleset, write them separated by semicolons, like this:</p>
+      <div class="code-block">
+    <div class="code-label-css">CSS</div>
+    <pre><code>
+      p {
+        color: red;
+        width: 500px;
+        border: 1px solid black;
+      }
+    </code></pre>
+</section>
+
+    <section  id="selecting_multiple_elements" class="main-section">
+      <header>Selecting multiple elements</header>
+      <p>You can also select multiple elements and apply a single ruleset to all of them. Separate multiple selectors by commas. For example:</p>
+      <div class="code-block">
+    <div class="code-label-css">CSS</div>
+    <pre><code>
+      p, li, h1 {
+        color: red;
+      }
+    </code></pre>
+    </section>
+
+    <section id="different_types_of_selectors" class="main-section">
+          <header>Different types of selectors</header>
+          <p>There are many different types of selectors. The examples above use element selectors, which select all elements of a given type. But we can make more specific selections as well. Here are some of the more common types of selectors:</p>
+          <figure>
+            <table class="standard-table">
+      <thead>
+        <tr>
+          <th scope="col">Selector name</th>
+          <th scope="col">What does it select</th>
+          <th scope="col">Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Element selector (sometimes called a tag or type selector)</td>
+          <td>All HTML elements of the specified type.</td>
+          <td><code>p</code><br>selects <code>&lt;p&gt;</code></td>
+        </tr>
+        <tr>
+          <td>ID selector</td>
+          <td>
+            The element on the page with the specified ID. On a given HTML page,
+            each id value should be unique.
+          </td>
+          <td>
+            <code>#my-id</code><br>selects <code>&lt;p id="my-id"&gt;</code> or
+            <code>&lt;a id="my-id"&gt;</code>
+          </td>
+        </tr>
+        <tr>
+          <td>Class selector</td>
+          <td>
+            The element(s) on the page with the specified class. Multiple instances
+            of the same class can appear on a page.
+          </td>
+          <td>
+            <code>.my-class</code><br>selects
+            <code>&lt;p class="my-class"&gt;</code> and
+            <code>&lt;a class="my-class"&gt;</code>
+          </td>
+        </tr>
+        <tr>
+          <td>Attribute selector</td>
+          <td>The element(s) on the page with the specified attribute.</td>
+          <td>
+            <code>img[src]</code><br>selects
+            <code>&lt;img src="myimage.png"&gt;</code> but not
+            <code>&lt;img&gt;</code>
+          </td>
+        </tr>
+        <tr>
+          <td>Pseudo-class selector</td>
+          <td>
+            The specified element(s), but only when in the specified state. (For
+            example, when a cursor hovers over a link.)
+          </td>
+          <td>
+            <code>a:hover</code><br>selects <code>&lt;a&gt;</code>, but only when
+            the mouse pointer is hovering over the link.
+          </td>
+        </tr>
+      </tbody>
+    </table></figure>
+    <p>There are many more selectors to discover. To learn more, see the MDN <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors">Selectors guide</a>.</p>
+    </section>
+
+        <section  id="fonts_and_text" class="main-section">
+      <header>Fonts and text</header>
+      <p>Now that we've explored some CSS fundamentals, let's improve the appearance of the example by adding more rules and information to the <code>style.css</code> file.</p>
+      <ol>
+        <li>First, find the output from Google Fonts that you previously saved from What will your website look like?. Add the <link> element somewhere inside your index.html's head (anywhere between the <head> and </head> tags). It looks something like this:</li>
+         <div class="code-block">
+        <div class="code-label-html">HTML</div>
+        <pre><code>
+        &lt;link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" /&gt;
+        </code></pre></div>
+        <p>This code links your page to a style sheet that loads the Open Sans font family with your webpage.</p>
+        <li>
+        Next, delete the existing rule you have in your <code>style.css</code> file. It was a good test, but let's not continue with lots of red text.
+        </li>
+        <li>Add the following lines (shown below), replacing the <code>font-family</code> assignment with your <code>font-family</code> selection from What will your website look like?. The property <code>font-family</code> refers to the font(s) you want to use for text. This rule defines a global base font and font size for the whole page. Since <code>&lt;html&gt;</code> is the parent element of the whole page, all elements inside it inherit the same <code>font-size</code> and <code>font-family</code>.</li>
+        <div class="code-block">
+          <div class="code-label-css">CSS</div>
+          <pre><code>
+            html {
+              font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+              font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+            }
+          </code></pre>
+          </div>
+
+        <div class="note">
+           <span class="info-icon">&#8505;</span>
+          <p>Note: Anything in CSS between /* and */ is a CSS comment. The browser ignores comments as it renders the code. CSS comments are a way for you to write helpful notes about your code or logic.</p>
+        </div>
+
+        <li>Now let's set font sizes for elements that will have text inside the HTML body (<code>h1</code>, <code>&lt;li&gt;</code>, and <code>&lt;p&gt;</code>). We'll also center the heading. Finally, let's expand the second ruleset (below) with settings for line height and letter spacing to make body content more readable.</li>
+         <div class="code-block">
+          <div class="code-label-css">CSS</div>
+          <pre><code>
+            h1 {
+              font-size: 60px;
+              text-align: center;
+            }
+            p, li {
+              font-size: 16px;
+              line-height: 2;
+              letter-spacing: 1px;
+            }
+          </code></pre>
+          </div>
+        </ol>
+        <p>Adjust the <code>px</code> values as you like. Your work-in-progress should look similar to this:</p>
+        <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/website-screenshot-font-small.png"/>
+    </section>
+
+    <section id="css_all_about_boxes" class="main-section">
+      <header>CSS: all about boxes</header>
+      <p>Something you'll notice about writing CSS: a lot of it is about boxes. This includes setting size, color, and position. Most HTML elements on your page can be thought of as boxes sitting on top of other boxes.</p>
+      <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/boxes.jpg" alt="A stack of boxes or crates sat on top of one another"/>
+      <p>Photo from <a href="https://www.geograph.org.uk/photo/3418115">https://www.geograph.org.uk/photo/3418115</a> Copyright © <a href="https://www.geograph.org.uk/profile/26362">Jim Barton</a> <a href="https://creativecommons.org/licenses/by-sa/2.0/"> cc-by-sa/2.0</a></p>
+
+      <p>CSS layout is mostly based on the box model. Each box taking up space on your page has properties like:</p>
+      <ul>
+        <li><code>padding</code>, the space around the content. In the example below, it is the space around the paragraph text.</li>
+        <li><code>border</code>, the solid line that is just outside the padding.</li>
+        <li><code>margin</code>, the space around the outside of the border.</li>
+      </ul>
+      <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/box-model.png" alt="Three boxes sat inside one another. From outside to in they are labelled margin, border and padding.">
+
+      <p>In this section we also use:</p>
+      <ul>
+        <li><code>width</code> (of an element).</li>
+        <li><code>background-color</code>, the color behind an element's content and padding.</li>
+        <li><code>color</code>, the color of an element's content (usually text).</li>
+        <li><code>text-shadow</code> sets a drop shadow on the text inside an element.</li>
+        <li><code>display</code> sets the display mode of an element. (keep reading to learn more)</li>
+      </ul>
+      <p>To continue, let's add more CSS. Keep adding these new rules at the bottom of <code>style.css</code>. Experiment with changing values to see what happens.</p>
+    </section>
+    <section id="changing_the_page_color" class="main-section">
+      <header>Changing the page color</header>
+      <div class="code-block">
+          <div class="code-label-css">CSS</div>
+          <pre><code>
+            html {
+              background-color: #00539f;
+            }
+          </code></pre>
+          </div>
+      <p>This rule sets a background color for the entire page. Change the color code to <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like#theme_color" >the color you chose in What will my website look like?</a>.</p>
+      </section>
+      <section id="styling_the_body" class="main-section">
+      <header>Styling the body</header>
+      <div class="code-block">
+          <div class="code-label-css">CSS</div>
+          <pre><code>
+            body {
+              width: 600px;
+              margin: 0 auto;
+              background-color: #ff9500;
+              padding: 0 20px 20px 20px;
+              border: 5px solid black;
+            }
+          </code></pre>
+          </div>
+      <p>There are several declarations for the <code>&lt;body&gt;</code> element. Let's go through these line-by-line:</p>
+      <ul>
+        <li><code>width: 600px;</code> This forces the body to always be 600 pixels wide.</li>
+        <li><code>margin: 0 auto;</code> When you set two values on a property like <code>margin</code> or <code>padding</code>, the first value affects the element's top and bottom side (setting it to <code>0</code> in this case); the second value affects the left and right side. (Here, <code>auto</code> is a special value that divides the available horizontal space evenly between left and right). You can also use one, two, three, or four values, as documented in <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin#syntax">Margin Syntax</a>.</li>
+        <li><code>background-color: #FF9500;</code> This sets the element's background color. This project uses a reddish orange for the body background color, as opposed to dark blue for the <code>&lt;html&gt;</code> element. (Feel free to experiment.)</li>
+        <li><code>padding: 0 20px 20px 20px;</code> This sets four values for padding. The goal is to put some space around the content. In this example, there is no padding on the top of the body, and 20 pixels on the right, bottom and left. The values set top, right, bottom, left, in that order. As with <code>margin</code>, you can use one, two, three, or four values, as documented in <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding#syntax">Padding Syntax</a>.</li>
+        <li><code>order: 5px solid black;</code> This sets values for the width, style and color of the border. In this case, it's a five-pixel–wide, solid black border, on all sides of the body.</li>
+      </ul>
+    </section>
+    <section id="positioning_and_styling_the_main_page_title" class="main-section">
+      <header>Positioning and styling the main page title</header>
+      <div class="code-block">
+          <div class="code-label-css">CSS</div>
+          <pre><code>
+            h1 {
+              margin: 0;
+              padding: 20px 0;
+              color: #00539f;
+              text-shadow: 3px 3px 1px black;
+            }
+          </code></pre>
+          </div>
+      <p>You may have noticed there's a horrible gap at the top of the body. That happens because browsers apply default styling to the <code>h1</code> element (among others). That might seem like a bad idea, but the intent is to provide basic readability for unstyled pages. To eliminate the gap, we overwrite the browser's default styling with the setting <code>margin: 0;</code>.</p>
+
+      <p>Next, we set the heading's top and bottom padding to 20 pixels.</p>
+
+      <p>Following that, we set the heading text to be the same color as the HTML background color.</p>
+
+      <p>Finally, <code>text-shadow</code> applies a shadow to the text content of the element. Its four values are:</p>
+      <ul>
+        <li>The first pixel value sets the horizontal offset of the shadow from the text: how far it moves across.</li>
+        <li>The second pixel value sets the vertical offset of the shadow from the text: how far it moves down.</li>
+        <li>The third pixel value sets the blur radius of the shadow. A larger value produces a more fuzzy-looking shadow.</li>
+        <li>The fourth value sets the base color of the shadow.</li>
+      </ul>
+      <p>Try experimenting with different values to see how it changes the appearance.</p>
+    </section>
+    <section id="centering_the_image" class="main-section">
+      <header>Centering the image</header>
+       <div class="code-block">
+          <div class="code-label-css">CSS</div>
+          <pre><code>
+            img {
+              display: block;
+              margin: 0 auto;
+            }
+          </code></pre>
+          </div>
+      <p>Next, we center the image to make it look better. We could use the margin: 0 auto trick again as we did for the body. But there are differences that require an additional setting to make the CSS work.</p>
+
+      <p>The <code>&lt;body&gt;</code> is a block element, meaning it takes up space on the page. The margin applied to a block element will be respected by other elements on the page. In contrast, images are inline elements, for the auto margin trick to work on this image, we must give it block-level behavior using <code>display: block;</code>.</p>
+
+      <div class="note">
+        <span class="info-icon">&#8505;</span>
+      <p>Note: The instructions above assume that you're using an image smaller than the width set on the body. (600 pixels) If your image is larger, it will overflow the body, spilling into the rest of the page. To fix this, you can either: 1) reduce the image width using a <a href="https://en.wikipedia.org/wiki/Raster_graphics_editor">graphics editor</a>, or 2) use CSS to size the image by setting the <code>width</code> property on the <code>&lt;img&gt;</code> element with a smaller value.</p>
+    </div>
+    <div class="note">
+      <span class="info-icon">&#8505;</span>
+      <p>Note: Don't be too concerned if you don't completely understand <code>display: block;</code> or the differences between a block element and an inline element. It will make more sense as you continue your study of CSS. You can find more information about different display values on MDN's <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">display reference page</a>.</p></div>
+    </section>
+    <section id="conclusion" class="main-section">
+      <header>Conclusion</header>
+      <p>If you followed all the instructions in this article, you should have a page that looks similar to this one:</p>
+      <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/website-screenshot-final.png" alt="A Mozilla logo, centered, and a header and paragraphs. It now looks nicely styled, with a blue background for the whole page and orange background for the centered main content strip.">
+      <p>(You can <a href="https://mdn.github.io/beginner-html-site-styled/">view our version here</a>.) If you get stuck, you can always compare your work with our <a href="https://github.com/mdn/beginner-html-site-styled/blob/gh-pages/styles/style.css">finished example code on GitHub</a>.</p>
+    </section>
+
+    <section id="reference" class="main-section">
+      <header>Reference</header>
+      <p>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></p>
+    </section>
+  </main>
+</body>
+<html>

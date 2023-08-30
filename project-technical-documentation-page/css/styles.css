@@ -1,0 +1,152 @@
+/* Code Blocks Section */
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  overflow: auto;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+code {
+  font-family: "Courier New", monospace;
+  color: #333;
+  background-color: #f4f4f4;
+
+}
+
+.code-block {
+  background-color: #f4f4f4;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.code-label-css,
+.code-label-html {
+  background-color: #1572B6;
+  color: white;
+  padding: 5px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: -18px;
+}
+
+.code-label-css {
+  background-color: #1572B6;
+}
+
+.code-label-html {
+  background-color: #E44D26;
+}
+
+.code-blue {
+  color: blue;
+  background-color: #f4f4f4;
+}
+
+/** End Code Blocks **/
+
+/* Navbar */
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 260px;
+  background-color: #1572B6;
+  color: white;
+  padding: 20px;
+}
+
+#navbar-header {
+  width: 100%;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover {
+  background-color: #f4f4f4;
+  color: #1572B6;
+  border-color: #1572B6;
+}
+
+
+/** End Navbar **/
+
+/* Main Content */
+header, h2, h3 {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+  text-align: left;
+}
+
+main {
+  margin-left: 300px;
+  padding: 20px;
+}
+
+dt {
+  margin: 10px;
+}
+
+li {
+  margin: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.note {
+  background-color: #FFA84C;
+  padding: 10px;
+  border-left: 4px solid #1572B6;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.info-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #1572B6;
+}
+
+/** End Main Content **/ 
+
+/* Table Section */
+
+.standard-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.standard-table th,
+.standard-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.standard-table th {
+  background-color: #f2f2f2;
+}
+
+.standard-table caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/** End Table Section **/
