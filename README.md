@@ -96,8 +96,7 @@ This mini-project showcases CSS styling to create a lifelike depiction of a pian
 The goal of this project was to build a technical documentation page using only HTML & CSS. The page features a user-friendly navigation bar that seamlessly guides users to different sections, enhancing accessibility and ease of use.
 <div align="center">
   <img src="preview-images/project-technical-documentation-page.png" alt="Project Tribute Page" width=800>
-</div> -->
-<<<<<<< HEAD
+</div>
 
 ---
 
@@ -109,5 +108,3 @@ Crafted a dynamic city skyline using CSS variables for streamlined styling and r
 <div align="center">
   <img src="preview-images/city-skyline-night.png" alt="City skyline during the night." width=600>
 </div>
-=======
->>>>>>> 8b59792dbd1c05c8e835f14824941200b6699c91
