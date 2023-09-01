@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+header {
+	position: fixed;
+	display: flex;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+}
+#header-img {
+	width: 50px;
+	margin-right: 10px;
+}
+
+#video {
+	width: 50%;
+}
+footer {
+	background: #333;
+	color: #fff;
+	text-align: right;
+	padding: 10px 0;
+}

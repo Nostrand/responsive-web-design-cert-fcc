@@ -108,3 +108,9 @@ Crafted a dynamic city skyline using CSS variables for streamlined styling and r
 <div align="center">
   <img src="preview-images/city-skyline-night.png" alt="City skyline during the night." width=600>
 </div>
+
+#### Magazine - [Live View](https://nostrand.github.io/responsive-web-design-fcc/magazine/index.html)
+Asembled a magazine article using CSS grid.
+<div align="center">
+  <img src="preview-images/magazine.png" alt="freeCodeCamp magazine." width=600>
+</div>
