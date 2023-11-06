@@ -45,7 +45,7 @@ Utilized CSS and the Box Model to craft Rothko-style rectangular art pieces.
   <img src="preview-images/rothko-painting.png" alt="CSS Box Model Art" width=600>
 </div>
 
-#### CSS Flexbox Gallery - [Live View](https://nostrand.github.io/responsive-web-design-fcc/css-flexbox-gallery/index.html)
+#### CSS Flexbox Gallery - [Live View](https://nostrand.github.io/responsive-web-design-fcc/css-flexbox-photo-gallery/index.html)
 Created a responsive photo gallery using CSS Flexbox, ensuring excellent visual presentation across various screen sizes.
 <div align="center">
   <img src="preview-images/flexbox-photo-gallery.png" alt="CSS Flexbox Gallery" width=600>
