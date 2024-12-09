@@ -123,5 +123,5 @@ Asembled a magazine article using CSS grid.
 #### Ferris wheel - [Live View](https://nostrand.github.io/responsive-web-design-fcc/ferris-wheel/index.html)
 A rotating ferris wheel animated with CSS. The cabins change color as the wheel turns.
 <div align="center">
-  <img src="preview-images/ferris-wheel.png" alt="Ferris wheel turning around and changing colors" width=600>
+  <img src="preview-images/ferris-wheel.gif" alt="Ferris wheel turning around and changing colors" width=600>
 </div>
