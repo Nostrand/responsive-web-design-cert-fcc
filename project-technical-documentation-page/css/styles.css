@@ -150,3 +150,35 @@ img {
 }
 
 /** End Table Section **/
+
+/** Media Queries **/
+
+@media (max-width: 768px) {
+  #navbar {
+    position: static; /* Allow the navbar to flow with the document */
+    width: 100%; /* Full width for smaller screens */
+    padding: 10px; /* Reduce padding */
+    text-align: center; /* Center the content */
+  }
+
+  main {
+    margin-left: 0; /* Remove the left margin for smaller screens */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .nav-link {
+    display: block; /* Stack links vertically */
+    margin: 5px 0; /* Add spacing between links */
+  }
+}
+
+@media (max-width: 480px) {
+  #navbar {
+    padding: 5px;
+    font-size: 14px; /* Adjust text size for very small screens */
+  }
+
+  .nav-link {
+    font-size: 12px; /* Make the links smaller */
+  }
+}
